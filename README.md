@@ -36,17 +36,14 @@ O projeto foi desenvolvido com as seguintes tecnologias e práticas:
 
    ```bash
    Configure com banco de dados criando um novo banco com uma tabela users com campos email e senha.
-
-4. Crie um usuário diretamente pelo banco.
-
-
-5. **Inicie o Servidor Local::**
    
+4. **Crie um usuário diretamente pelo banco:**
+   ``` bash
+   INSERT INTO `users`( `email`, `password`) VALUES ('[value-3]','[value-4]').
+
+4. . **Inicie o servidor local:**
    ```bash
-    php -S localhost:8000
-   
-
-   
+   php -S localhost:8000
 
 ## Licença 📄
 
